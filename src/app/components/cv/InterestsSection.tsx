@@ -3,11 +3,11 @@ import { motion, AnimatePresence } from "motion/react";
 
 const interests = [
     { name: "Music", active: true },
-    { name: "Winter Sports", active: false },
+    { name: "Gym", active: false },
     { name: "Travelling", active: true },
     { name: "Tennis", active: false },
-    { name: "Boulder", active: false },
-    { name: "Design", active: true }
+    { name: "Hiking", active: true },
+    { name: "Design", active: false }
 ];
 
 export function InterestsSection() {
