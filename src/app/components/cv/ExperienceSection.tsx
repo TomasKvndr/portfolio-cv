@@ -37,7 +37,7 @@ const experiences = [
     isRemote: false
   },
   {
-    period: "2024-2025",
+    period: "2023-2024",
     location: "ŽILINA",
     title: "SQL Analyst",
     company: "Cargo Partner SK",
