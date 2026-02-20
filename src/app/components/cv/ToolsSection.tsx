@@ -11,6 +11,7 @@ import {
   IconMSSQL, 
   IconMicrosoftOffice, 
   IconAITools,
+  IconCSS3,
   IconFramer
 } from "./Icons";
 
@@ -33,7 +34,7 @@ export function ToolsSection() {
             { icon: <IconAdobePhotoshop />, name: "Photoshop" },
             { icon: <IconAdobeLightroom />, name: "Lightroom" },
             { icon: <IconHTML5 />, name: "HTML 5" },
-            { icon: <img src={imgCss31} alt="CSS" className="w-full h-full object-contain grayscale group-hover:grayscale-0 transition-all" />, name: "CSS 3" },
+            { icon: <IconCSS3 />, name: "CSS 3" },
             { icon: <IconWordpress />, name: "Wordpress" },
             { icon: <IconGithub />, name: "Github/Git" },
             { icon: <IconMSSQL />, name: "SQL" },
@@ -50,7 +51,7 @@ export function ToolsSection() {
       </div>
       
       <div className="p-3 font-mono text-[10px] text-gray-500 leading-relaxed border-b border-[rgba(255,255,255,0.1)]">
-        BRIDGE BETWEEN TECHNICAL ARCHITECTURE, BUSINESS STRATEGY AND UX/UI DESIGN.
+        ALL THESE TOOLS HELPS ME BUILD A BRIDGE BETWEEN TECHNICAL ARCHITECTURE, BUSINESS STRATEGY AND UX/UI DESIGN.
       </div>
     </div>
   );

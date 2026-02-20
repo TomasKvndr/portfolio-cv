@@ -73,3 +73,9 @@ export const IconAITools = () => (
     <svg viewBox="0 0 10.4685 12.1351" className="absolute top-[29.17%] left-[56.3%] w-[10.47px]" fill="none"><path d={svgPaths.pad01e00} fill="currentColor" /></svg>
   </div>
 );
+
+export const IconCSS3 = () => (
+<svg viewBox="0 0 24 24" fill="currentColor" xmlns="">
+<path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm17.09 4.16l-1.15 11.84-5.48 1.58-5.44-1.57-.35-3.87h3.18l.18 1.93 2.43.68 2.45-.69.53-5.54H4.23l-.3-3.18h11.22l.22-2.31H3.66l-.34-3.18h15.65z"/>
+</svg>
+);
