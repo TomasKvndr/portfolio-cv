@@ -1,6 +1,5 @@
 import React, { useRef } from "react";
 import { motion, useScroll, useTransform } from "motion/react";
-import imgProfileNew from "figma:asset/59a8823921fcf99ebe40c12839192ba15f47a174.png";
 import { ImageWithFallback } from "../figma/ImageWithFallback";
 
 export function HeaderSection() {
@@ -47,7 +46,7 @@ export function HeaderSection() {
                     className="absolute top-[-10%] left-0 w-full h-[120%]"
                 >
                     <ImageWithFallback 
-                        src={imgProfileNew} 
+                        src={"/profile.png"} 
                         alt="Profile" 
                         className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
                     />
